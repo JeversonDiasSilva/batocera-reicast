@@ -25,7 +25,7 @@ https://github.com/JeversonDiasSilva/batocera-reicast/releases/download/v1.0/rei
 
 rm -f /usr/lib/libretro/zc210_libretro.so >/dev/null 2>&1
 ln -s /userdata/system/configs/retroarch/cores/reicast_libretro.so \
-      /usr/lib/libretro/zc210_libretro.so >/dev/null 2>&1
+      /usr/lib/libretro/reicast_libretro.so >/dev/null 2>&1
 echo -e "${BLUE_BOLD}      ✔ Reicast ativo (REICAST)${RESET}"
 
 # 1.1 Baixando arquivo .info
