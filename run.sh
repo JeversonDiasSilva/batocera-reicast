@@ -54,12 +54,7 @@ echo -e "${GREEN_BOLD}[4/5] Finalizando...${RESET}"
 sync
 batocera-save-overlay 250 > /dev/null 2>&1
 
-[ -f /userdata/system/.dev/dependencias.zip ] && \
-sed -i '/<system>/,/<\/system>/{
-/<group>/!{
-/<\/theme>/a\        <group>fliperama</group>
-}
-}' /userdata/system/configs/emulationstation/es_systems_naomi.cfg 
+
 
 
 echo
