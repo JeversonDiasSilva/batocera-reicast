@@ -59,7 +59,7 @@ sed -i '/<system>/,/<\/system>/{
 /<group>/!{
 /<\/theme>/a\        <group>fliperama</group>
 }
-}' /usr/share/emulationstation/es_systems_naomi.cfg
+}' /userdata/system/configs/emulationstation/es_systems_naomi.cfg 
 
 
 echo
